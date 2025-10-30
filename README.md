@@ -21,7 +21,7 @@ It aims to provide a web-based solution for managing hospital operations: patien
 * **Backend:** PHP (Laravel or other) ([GitHub][1])
 * **Templates / UI:** Blade templates (50.2%) ([GitHub][1])
 * **Additional technologies:** JavaScript (~2.0%) ([GitHub][1])
-* **Database:** *[Fill in: MySQL / PostgreSQL / etc]*
+* **Database:** MySQL
 * **Project structure:** Front-end folder + Back-end folder (`Frontend-Hospital`, `Backend-Hospital`) ([GitHub][1])
 
 ## 🗂 Repository Structure
