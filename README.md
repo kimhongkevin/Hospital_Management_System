@@ -1,7 +1,3 @@
-Great — thank you for sharing the repository. I can certainly help you generate a professional `README.md` for your project **Hospital Management System**. Here's a draft based on what I can see; I’ll leave placeholders where I’ll need you to fill in specific details (e.g., setup commands, screenshots, etc.). Feel free to request additions or further customisation.
-
----
-
 # Hospital Management System
 
 ## 📌 Project Overview
