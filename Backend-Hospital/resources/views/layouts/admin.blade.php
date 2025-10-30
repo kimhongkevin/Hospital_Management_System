@@ -54,7 +54,7 @@
                 <a href="{{ route('admin.users') }}"
                    class="{{ $navClasses }} {{ request()->routeIs('admin.users') ? $activeClasses : 'hover:bg-white/10' }}">
                     <svg class="w-5 h-5 mr-3 {{ request()->routeIs('admin.users') ? 'text-sky-300' : 'text-sky-200 group-hover:text-sky-300' }} transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 7a2 2 0 012 2v5.586l-2-2a1 1 0 00-1.414 0l-2 2V9a2 2 0 012-2zM10 21V6a2 2 0 012-2h4a2 2 0 012 2v15m-15 0h12"/>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A9.004 9.004 0 0112 15c2.21 0 4.21.805 5.879 2.137M15 11a3 3 0 11-6 0 3 3 0 016 0zM12 3a9 9 0 100 18 9 9 0 000-18z" />
                     </svg>
                     <span class="font-medium text-sm">Users</span>
                 </a>
@@ -62,32 +62,32 @@
 
                 <a href="{{ route('admin.patients') }}"
                    class="{{ $navClasses }} {{ request()->routeIs('admin.patients') ? $activeClasses : 'hover:bg-white/10' }}">
-                    <svg class="{{ $iconClasses }} {{ request()->routeIs('admin.patients') ? 'text-sky-300' : 'text-sky-200 group-hover:text-sky-300' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2m-4 0V3h-2m4 2V3m-4 8l2 2 4-4"/>
+                    <svg class="w-5 h-5 mr-3 {{ request()->routeIs('admin.patients') ? 'text-white' : 'text-medical-200 group-hover:text-white' }} transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
                     </svg>
                     <span class="font-medium text-sm">Patients</span>
                 </a>
 
                 <a href="{{ route('admin.departments') }}"
                    class="{{ $navClasses }} {{ request()->routeIs('admin.departments') ? $activeClasses : 'hover:bg-white/10' }}">
-                    <svg class="{{ $iconClasses }} {{ request()->routeIs('admin.departments') ? 'text-sky-300' : 'text-sky-200 group-hover:text-sky-300' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1v1H9V7zm0 4h1v1H9v-1zm0 4h1v1H9v-1zm4-4h1v1h-1v-1zm0 4h1v1h-1v-1zm4-4h1v1h-1v-1z"/>
+                    <svg class="w-5 h-5 mr-3 {{ request()->routeIs('admin.departments') ? 'text-white' : 'text-medical-200 group-hover:text-white' }} transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 10h-2V4h1V2H4v2h1v6H3a1 1 0 0 0-1 1v9h20v-9a1 1 0 0 0-1-1m-7 8v-4h-4v4H7V4h10v14z"/>
                     </svg>
                     <span class="font-medium text-sm">Departments</span>
                 </a>
 
                 <a href="{{ route('admin.doctors') }}"
                    class="{{ $navClasses }} {{ request()->routeIs('admin.doctors') ? $activeClasses : 'hover:bg-white/10' }}">
-                    <svg class="{{ $iconClasses }} {{ request()->routeIs('admin.doctors') ? 'text-sky-300' : 'text-sky-200 group-hover:text-sky-300' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.25L17.5 9H13V3H11V9H6.5L3 13.25V21H21V13.25Z"/>
+                    <svg class="w-5 h-5 mr-3 {{ request()->routeIs('admin.doctors') ? 'text-white' : 'text-medical-200 group-hover:text-white' }} transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/>
                     </svg>
                     <span class="font-medium text-sm">Doctors</span>
                 </a>
 
                 <a href="{{ route('admin.staffs') }}"
                    class="{{ $navClasses }} {{ request()->routeIs('admin.staffs') ? $activeClasses : 'hover:bg-white/10' }}">
-                    <svg class="{{ $iconClasses }} {{ request()->routeIs('admin.staffs') ? 'text-sky-300' : 'text-sky-200 group-hover:text-sky-300' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+                    <svg class="w-5 h-5 mr-3 {{ request()->routeIs('admin.staffs') ? 'text-white' : 'text-medical-200 group-hover:text-white' }} transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
                     </svg>
                     <span class="font-medium text-sm">Staffs</span>
                 </a>
@@ -102,8 +102,8 @@
 
                 <a href="{{ route('admin.invoices') }}"
                    class="{{ $navClasses }} {{ request()->routeIs('admin.invoices') ? $activeClasses : 'hover:bg-white/10' }}">
-                    <svg class="{{ $iconClasses }} {{ request()->routeIs('admin.invoices') ? 'text-sky-300' : 'text-sky-200 group-hover:text-sky-300' }}" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14v12a2 2 0 01-2 2H7a2 2 0 01-2-2V9z"/>
+                    <svg class="w-5 h-5 mr-3 {{ request()->routeIs('admin.invoices') ? 'text-white' : 'text-medical-200 group-hover:text-white' }} transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/>
                     </svg>
                     <span class="font-medium text-sm">Invoices</span>
                 </a>
@@ -116,7 +116,7 @@
                     <span class="font-medium text-sm">Documents</span>
                 </a>
 
-                <a href="http://localhost:5173/" target="_blank"
+                <a href="http://localhost:5174/" target="_blank"
                    class="{{ $navClasses }} hover:bg-white/10">
                     <span class="mr-2 text-xl">🌐</span>
                     <span>Our Public Website</span>
